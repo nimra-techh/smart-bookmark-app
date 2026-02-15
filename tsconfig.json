@@ -5,11 +5,11 @@
     "jsx": "react-jsx",
     "moduleResolution": "node",
     "strict": true,
-    "baseUrl": ".", // 👈 project root
+    "baseUrl": ".",
     "paths": {
       "@/*": [
         "./*"
-      ] // 👈 alias @ points to root
+      ]
     },
     "lib": [
       "dom",
@@ -32,10 +32,10 @@
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
     "**/*.mts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    ".next/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
